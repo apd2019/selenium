@@ -28,6 +28,8 @@ public class BrokenLinks2Test {
 		for(WebElement link : links) {
 			String url = link.getAttribute("href");
 			System.out.println(url);
+			
+			//calling the method "verifyLink and passing the url as parameter
 			verifyLink(url);
 		}
 	}
