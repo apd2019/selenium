@@ -20,4 +20,20 @@ WebDriver driver = new SafariDriver();
 
 WebElement foot = driver.findElement(By.id("gf-BIG")); //[foot = variable or object that holds the section reference]
 
+//pkg (related)
+import org.openqa.selenium.WebElement;
+
 ===============================================
+
+
+//List usage
+List<WebElement>links = driver.findElements(By.tagName("a"));
+
+//pkg (related) 
+import java.util.List;
+
+==============================================
+
+
+
+  
